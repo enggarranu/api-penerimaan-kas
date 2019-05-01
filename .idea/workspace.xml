@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="09e54981-a4e3-4b7f-ba46-2c08189af741" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/api_koperasi$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1532074185298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/api_koperasi$test.coverage" NAME="test Coverage Results" MODIFIED="1534530581740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/api_koperasi$text.coverage" NAME="text Coverage Results" MODIFIED="1529670180117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/api_koperasi$date_test.coverage" NAME="date_test Coverage Results" MODIFIED="1533107400571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/api_koperasi$api_koperasi.coverage" NAME="api_koperasi Coverage Results" MODIFIED="1526575828738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="connection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/connection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="499" column="27" selection-start-line="499" selection-start-column="27" selection-end-line="499" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Truemoney</find>
+      <find>saldo</find>
+      <find>inq</find>
+      <find>setor</find>
+      <find>print</find>
+      <find>int</find>
+      <find>cast</find>
+      <find>SALDO</find>
+      <find>get_id_transaksi_pinjaman</find>
+      <find>register</find>
+      <find>id_transaksi_pengambilan</find>
+      <find>get_id_transaksi_pembayaran</find>
+      <find>get_id_transaksi_pi</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Enggar</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/text.py" />
+        <option value="$PROJECT_DIR$/anggota.py" />
+        <option value="$PROJECT_DIR$/date_test.py" />
+        <option value="$PROJECT_DIR$/connection.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="width" value="979" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="api_koperasi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_koperasi" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="api_koperasi" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="api_koperasi" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="date_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="api_koperasi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/date_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="api_koperasi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="text" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="api_koperasi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" factoryName="Flask server" temporary="true" nameIsGenerated="true">
+      <module name="api_koperasi" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+    </configuration>
+    <configuration name="api_koperasi" type="Python.FlaskServer" factoryName="Flask server">
+      <module name="api_koperasi" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Flask server.api_koperasi" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Flask server.Flask (app.py)" />
+      <item itemvalue="Python.text" />
+      <item itemvalue="Python.date_test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.date_test" />
+        <item itemvalue="Flask server.Flask (app.py)" />
+        <item itemvalue="Python.text" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09e54981-a4e3-4b7f-ba46-2c08189af741" name="Default" comment="" />
+      <created>1526545203638</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526545203638</updated>
+    </task>
+    <task id="LOCAL-00007" summary="optimize Import">
+      <created>1533126716089</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1533126716090</updated>
+    </task>
+    <task id="LOCAL-00008" summary="optimize Import">
+      <created>1533126828701</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1533126828701</updated>
+    </task>
+    <task id="LOCAL-00009" summary="optimize Import">
+      <created>1533126914984</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1533126914984</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fix Warning">
+      <created>1533197993817</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1533197993817</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fix Warning">
+      <created>1533199341387</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1533199341387</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Create Money Format on select">
+      <created>1533201088666</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1533201088666</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Improve Register Petugas">
+      <created>1533302804433</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1533302804434</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Improve Register Petugas">
+      <created>1533303278687</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1533303278687</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Login Management">
+      <created>1533452639809</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1533452639809</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Login Management | inquiry petugas">
+      <created>1533452965036</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1533452965036</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Login Management | inquiry petugas">
+      <created>1533538471337</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1533538471337</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Login Management | inquiry petugas">
+      <created>1533542016862</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1533542016862</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Login Management | inquiry petugas">
+      <created>1533542276448</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1533542276448</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Login Management | inquiry petugas">
+      <created>1533543251060</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1533543251060</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Login Management | inquiry petugas">
+      <created>1533543859443</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1533543859443</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add Validation Form peminjaman">
+      <created>1533628905488</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1533628905488</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Register petugas">
+      <created>1533712260117</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1533712260117</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Register petugas">
+      <created>1533712410855</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1533712410855</updated>
+    </task>
+    <task id="LOCAL-00025" summary="revert to ee49356085c95aa1e37cd9f4770b4b589d196706">
+      <created>1534501009412</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1534501009412</updated>
+    </task>
+    <task id="LOCAL-00026" summary="revert to ee49356085c95aa1e37cd9f4770b4b589d196706">
+      <created>1534501089618</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1534501089618</updated>
+    </task>
+    <task id="LOCAL-00027" summary="revert to ee49356085c95aa1e37cd9f4770b4b589d196706">
+      <created>1534501130469</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1534501130469</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Re_Prepare">
+      <created>1534501264267</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1534501264267</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Add function inquiry_pembayaran">
+      <created>1534519898921</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1534519898922</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Add function inquiry_pembayaran">
+      <created>1534519938393</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1534519938393</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Add function inquiry_pembayaran">
+      <created>1534520522197</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1534520522197</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Add function inquiry_pembayaran">
+      <created>1534521379230</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1534521379230</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Add function inquiry_pembayaran">
+      <created>1534521712492</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1534521712492</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Add function inquiry_pembayaran">
+      <created>1534523152540</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1534523152540</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Add function inquiry_pembayaran">
+      <created>1534523186905</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1534523186905</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Add function inquiry_pembayaran">
+      <created>1534523248387</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1534523248387</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Add function inquiry_pembayaran">
+      <created>1534523275295</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1534523275295</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Add function inquiry_pembayaran">
+      <created>1534523820778</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1534523820778</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Add function inquiry_pembayaran">
+      <created>1534523837278</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1534523837278</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Add function inquiry_pembayaran">
+      <created>1534526491630</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1534526491630</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Add function inquiry_pembayaran">
+      <created>1534528529859</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1534528529859</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Add function inquiry_pembayaran">
+      <created>1534529387026</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1534529387026</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Add function inquiry_pembayaran">
+      <created>1534529967929</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1534529967930</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Add function inquiry_pembayaran">
+      <created>1534530150003</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1534530150003</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Add function inquiry_pembayaran">
+      <created>1534530276032</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1534530276032</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Add function inquiry_pembayaran">
+      <created>1534530347885</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1534530347885</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Add function inquiry_pembayaran">
+      <created>1534530682908</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1534530682908</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Add function inquiry_pembayaran">
+      <created>1534531076723</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1534531076723</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Add function inquiry_pembayaran">
+      <created>1534531620108</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1534531620108</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Add function inquiry_pembayaran">
+      <created>1534531785641</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1534531785642</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Fix Bug Get id trx pinjaman and bug pengambilan">
+      <created>1534570621147</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1534570621148</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Bug Fix Inq Pengambilan">
+      <created>1534571389002</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1534571389002</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Bug Fix Inq Pengambilan">
+      <created>1534572701068</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1534572701068</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Bug Fix Inq Pengambilan">
+      <created>1534573318839</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1534573318839</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Bug Fix Inq Pengambilan">
+      <created>1534573909927</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1534573909927</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1618" height="887" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50728154" side_tool="true" weight="0.400978" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" x="859" y="62" width="1146" height="796" id="Run" order="2" sideWeight="0.49946696" weight="0.48666668" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49271846" weight="0.396" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1745828" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3297414" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" x="859" y="62" width="1146" height="796" id="Run" order="2" sideWeight="0.49946696" weight="0.48789346" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41854304" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3297414" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49271846" weight="0.400978" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50728154" side_tool="true" weight="0.400978" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add pinjaman" />
+    <MESSAGE value="FIXING AND ADD LIST PENGAMBILAN" />
+    <MESSAGE value="update connection" />
+    <MESSAGE value="optimize log location" />
+    <MESSAGE value="optimize Import" />
+    <MESSAGE value="Fix Warning" />
+    <MESSAGE value="Create Money Format on select" />
+    <MESSAGE value="Improve Register Petugas" />
+    <MESSAGE value="Login Management" />
+    <MESSAGE value="Login Management | inquiry petugas" />
+    <MESSAGE value="Add Validation Form peminjaman" />
+    <MESSAGE value="Register petugas" />
+    <MESSAGE value="revert to ee49356085c95aa1e37cd9f4770b4b589d196706" />
+    <MESSAGE value="Re_Prepare" />
+    <MESSAGE value="Add function inquiry_pembayaran" />
+    <MESSAGE value="Fix Bug Get id trx pinjaman and bug pengambilan" />
+    <MESSAGE value="Bug Fix Inq Pengambilan" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug Fix Inq Pengambilan" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/Python27/Lib/site-packages/MySQLdb/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30566">
+          <caret line="1798" selection-start-line="1798" selection-end-line="1798" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_KOPERASI.log" />
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5253">
+          <caret line="309" column="49" selection-start-line="309" selection-start-column="49" selection-end-line="309" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/MySQLdb/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30566">
+          <caret line="1798" selection-start-line="1798" selection-end-line="1798" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_KOPERASI.log" />
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2210">
+          <caret line="130" column="34" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_KOPERASI.log" />
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2210">
+          <caret line="130" column="34" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_KOPERASI.log" />
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3842">
+          <caret line="226" column="26" selection-start-line="226" selection-start-column="26" selection-end-line="226" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_KOPERASI.log" />
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4114">
+          <caret line="242" column="51" selection-start-line="242" selection-start-column="51" selection-end-line="242" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_KOPERASI.log" />
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3434">
+          <caret line="202" column="20" selection-start-line="202" selection-start-column="20" selection-end-line="202" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_KOPERASI.log" />
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="176" column="42" lean-forward="true" selection-start-line="176" selection-start-column="42" selection-end-line="176" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_KOPERASI.log" />
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_KOPERASI.log" />
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="150" column="33" lean-forward="true" selection-start-line="150" selection-start-column="33" selection-end-line="150" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_KOPERASI.log" />
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="99" column="31" lean-forward="true" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_KOPERASI.log" />
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_KOPERASI.log" />
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="31" lean-forward="true" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_KOPERASI.log" />
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="82" column="63" selection-start-line="82" selection-start-column="63" selection-end-line="82" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_KOPERASI.log" />
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/MySQLdb/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28768">
+          <caret line="1798" selection-start-line="1798" selection-end-line="1798" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/MySQLdb/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2736">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_KOPERASI.log" />
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/MySQLdb/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/MySQLdb/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="168" selection-start-line="168" selection-end-line="168" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text.py" />
+    <entry file="file://$PROJECT_DIR$/anggota.py" />
+    <entry file="file://$PROJECT_DIR$/API_KOPERASI.log" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-762174762/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="2206" column="8" selection-start-line="2206" selection-start-column="8" selection-end-line="2206" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/date_test.py" />
+    <entry file="file://C:/Python27/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1798" selection-start-line="1798" selection-end-line="1798" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/MySQLdb/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="499" column="27" selection-start-line="499" selection-start-column="27" selection-end-line="499" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
