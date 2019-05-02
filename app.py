@@ -229,8 +229,8 @@ def register_anggota():
             res_data['msg'] = 'Anggota berhasil didaftarkan'
         return json.dumps(res_data)
 
-@app.route('/register_anggota_get_id', methods=["GET",])
-def register_anggot_get_id():
+@app.route('/penjualan_pulsa_get_id', methods=["GET",])
+def penjualan_pulsa_get_id():
         res_data = {}
         if request.method == 'GET':
             db = connection.get_db()
@@ -751,5 +751,5 @@ if __name__ == '__main__':
     handler = RotatingFileHandler('/var/log/api-koperasi/API_KOPERASI.log', maxBytes=10000, backupCount=1)
     handler.setLevel(logging.INFO)
     app.logger.addHandler(handler)
-    app.run(host='172.21.151.159', port=5000, threaded=True, debug=True)
+    app.run(host='0.0.0.0', port=5000, threaded=True, debug=True)
     # app.run(host='127.0.0.1', port=5000, threaded=True, debug=True)
