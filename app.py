@@ -751,7 +751,7 @@ def bayar_cicilan():
 
 # INPUT PENJUALAN PULSA
 @app.route('/get_operator_denom_by_prefix', methods=["POST","GET"])
-def inquiry_pembayaran():
+def get_operator_denom_by_prefix():
     if request.method == 'GET':
         return api_version
     else:
