@@ -747,35 +747,6 @@ def bayar_cicilan():
 
 
 
-
-
-# INPUT PENJUALAN PULSA
-@app.route('/get_operator_denom_by_prefix', methods=["POST","GET"])
-def inquiry_pembayaran():
-    if request.method == 'GET':
-        return api_version
-    else:
-        if not request.json:
-            abort(400)
-        data = request.json
-        print (data)
-        app.logger.info("input :" + str(data))
-        prefix = str(data['prefix'])
-        db = connection.get_db()
-        curr = db.cursor()
-
-        q = ("select nama_operator from ms_prefix where prefix like '%"+prefix+"';")
-
-        curr.execute(q)
-        rs = curr.fetchone()
-        rs_data = {}
-        if len(rs) > 0 :
-            rs_data["response"] = "OK"
-            rs_data["nama_operator"] = str(rs[0])
-        else :
-            rs_data["response"] = 'NOK'
-        return json.dumps(rs_data)
-
 if __name__ == '__main__':
     handler = RotatingFileHandler('/var/log/api-koperasi/API_KOPERASI.log', maxBytes=10000, backupCount=1)
     handler.setLevel(logging.INFO)
