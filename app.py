@@ -760,7 +760,8 @@ def get_operator_denom_by_prefix():
         data = request.json
         print (data)
         app.logger.info("input :" + str(data))
-        prefix = str(data['prefix'])
+        no_hp = str(data['no_hp'])
+        prefix = no_hp[0:3]
         db = connection.get_db()
         curr = db.cursor()
 
