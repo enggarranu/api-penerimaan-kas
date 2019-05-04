@@ -236,12 +236,12 @@ def penjualan_pulsa_get_id():
             db = connection.get_db()
             curr = db.cursor()
             q_is_exist = (
-                        "SELECT count(id_anggota) as jumlah FROM `tb_anggota`;")
+                        "SELECT count(id) FROM `tr_transaksi` where date(`timestamp`) = CURDATE();")
             curr.execute(q_is_exist)
             rs = curr.fetchall()
             jumlah_row = rs[0][0]
             res_data['response'] = 'OK'
-            res_data['msg'] = 'UTI/AGT000'+str(jumlah_row+1)
+            res_data['msg'] = 'P'+str(jumlah_row+1)
             db.close()
             return json.dumps(res_data)
 
