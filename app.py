@@ -770,11 +770,11 @@ def get_operator_denom_by_prefix():
         curr.execute(q)
         rs = curr.fetchone()
         rs_data = {}
-        if len(rs) > 0 :
-            rs_data["response"] = "OK"
-            rs_data["nama_operator"] = str(rs[0])
-        else :
-            rs_data["response"] = 'NOK'
+        # if len(rs) > 0 :
+        rs_data["response"] = "OK"
+        rs_data["nama_operator"] = str(rs[0])
+        # else :
+        #     rs_data["response"] = 'NOK'
         return json.dumps(rs_data)
 
 if __name__ == '__main__':
