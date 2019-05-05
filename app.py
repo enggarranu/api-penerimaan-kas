@@ -759,14 +759,14 @@ def get_operator_denom_by_prefix():
             abort(400)
         data = request.json
         print (data)
-        app.logger.info("input :" + str(data))
+        print("input :" + str(data))
         no_hp = str(data['no_hp'])
         prefix = no_hp[0:3]
         db = connection.get_db()
         curr = db.cursor()
 
         q = ("select nama_operator from ms_prefix where prefix like '%"+prefix+"';")
-
+        print (q)
         curr.execute(q)
         rs = curr.fetchone()
         rs_data = {}
