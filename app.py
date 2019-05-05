@@ -761,7 +761,7 @@ def get_operator_denom_by_prefix():
         print (data)
         print("input :" + str(data))
         no_hp = str(data['no_hp'])
-        prefix = no_hp[0:3]
+        prefix = no_hp[0:4]
         db = connection.get_db()
         curr = db.cursor()
 
