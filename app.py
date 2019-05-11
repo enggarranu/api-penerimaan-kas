@@ -765,14 +765,14 @@ def get_operator_denom_by_prefix():
         db = connection.get_db()
         curr = db.cursor()
 
-        q = ("select nama_operator from ms_prefix where prefix like '%"+prefix+"';")
+        q = ("select ms_prefix.nama_operator, ms_produk.nama_produk from ms_prefix left join ms_produk on ms_prefix.nama_operator = ms_produk.nama_operator where ms_prefix.prefix = '"+prefix+"';")
         print (q)
         curr.execute(q)
         rs = curr.fetchone()
         rs_data = {}
         # if len(rs) > 0 :
         rs_data["response"] = "OK"
-        rs_data["nama_operator"] = str(rs[0])
+        rs_data["data_arr"] = rs
         # else :
         #     rs_data["response"] = 'NOK'
         return json.dumps(rs_data)
