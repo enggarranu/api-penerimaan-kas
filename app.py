@@ -772,7 +772,8 @@ def get_operator_denom_by_prefix():
         rs_data = {}
         # if len(rs) > 0 :
         rs_data["response"] = "OK"
-        rs_data["data_arr"] = rs
+        rs_data["nama_operator"] = rs[0][0]
+        rs_data["data_arr"] = rs[1]
         # else :
         #     rs_data["response"] = 'NOK'
         return json.dumps(rs_data)
