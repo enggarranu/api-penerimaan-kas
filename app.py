@@ -768,7 +768,7 @@ def get_operator_denom_by_prefix():
         q = ("select ms_prefix.nama_operator, ms_produk.nama_produk from ms_prefix left join ms_produk on ms_prefix.nama_operator = ms_produk.nama_operator where ms_prefix.prefix = '"+prefix+"';")
         print (q)
         curr.execute(q)
-        rs = curr.fetchone()
+        rs = curr.fetchall()
         rs_data = {}
         # if len(rs) > 0 :
         rs_data["response"] = "OK"
