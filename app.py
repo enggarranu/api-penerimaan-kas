@@ -10,6 +10,7 @@ from logging.handlers import RotatingFileHandler
 app = Flask(__name__)
 CORS(app)
 api_version = "API_KOPERASI Ver 2017.9 By Eng | (c) Copyrights Enggar 2017"
+now = datetime.datetime.now()
 
 # PETUGAS DAN ANGGOTA
 @app.route('/register_petugas_get_id', methods=["GET",])
@@ -229,21 +230,6 @@ def register_anggota():
             res_data['msg'] = 'Anggota berhasil didaftarkan'
         return json.dumps(res_data)
 
-@app.route('/penjualan_pulsa_get_id', methods=["GET",])
-def penjualan_pulsa_get_id():
-        res_data = {}
-        if request.method == 'GET':
-            db = connection.get_db()
-            curr = db.cursor()
-            q_is_exist = (
-                        "SELECT count(id) FROM `tr_transaksi` where date(`timestamp`) = CURDATE();")
-            curr.execute(q_is_exist)
-            rs = curr.fetchall()
-            jumlah_row = rs[0][0]
-            res_data['response'] = 'OK'
-            res_data['msg'] = 'P'+str(jumlah_row+1)
-            db.close()
-            return json.dumps(res_data)
 
 @app.route('/inquiry_anggota/<id>', methods=["GET",])
 def inquiry_anggota(id):
@@ -750,6 +736,26 @@ def bayar_cicilan():
 
 
 # INPUT PENJUALAN PULSA
+
+@app.route('/penjualan_pulsa_get_id', methods=["GET",])
+def penjualan_pulsa_get_id():
+    now = datetime.datetime.now()
+    res_data = {}
+    if request.method == 'GET':
+        db = connection.get_db()
+        curr = db.cursor()
+        q_is_exist = (
+                    "SELECT count(id),CURDATE() FROM `tr_transaksi` where date(`timestamp`) = CURDATE();")
+        curr.execute(q_is_exist)
+        rs = curr.fetchall()
+        jumlah_row = rs[0][0]
+        now = now.strftime("%Y%m%d")
+        res_data['response'] = 'OK'
+        res_data['msg'] = 'P'+ now + str(jumlah_row+1)
+        db.close()
+        return json.dumps(res_data)
+
+
 @app.route('/get_operator_denom_by_prefix', methods=["POST","GET"])
 def get_operator_denom_by_prefix():
     if request.method == 'GET':
