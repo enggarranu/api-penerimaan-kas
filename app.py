@@ -776,15 +776,15 @@ def get_operator_denom_by_prefix():
         curr.execute(q)
         rs = curr.fetchall()
         rs_data = {}
-        # if len(rs) > 0 :
-        rs_data["response"] = "OK"
-        rs_data["nama_operator"] = rs[0][0]
-        denom_arr =[]
-        for denom in rs:
-            denom_arr.append(denom[1])
-        rs_data["denom_arr"] = denom_arr
-        # else :
-        #     rs_data["response"] = 'NOK'
+        if len(rs) > 0 :
+            rs_data["response"] = "OK"
+            rs_data["nama_operator"] = rs[0][0]
+            denom_arr =[]
+            for denom in rs:
+                denom_arr.append(denom[1])
+            rs_data["denom_arr"] = denom_arr
+        else :
+            rs_data["response"] = 'NOK'
         return json.dumps(rs_data)
 
 if __name__ == '__main__':
