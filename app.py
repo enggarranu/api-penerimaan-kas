@@ -787,6 +787,52 @@ def get_operator_denom_by_prefix():
             rs_data["response"] = 'NOK'
         return json.dumps(rs_data)
 
+@app.route('/register_petugas', methods=["POST","GET"])
+def register():
+    try:
+        res_data = {}
+        if request.method == 'GET':
+            return api_version
+        else:
+            if not request.json:
+                abort(400)
+            data = request.json
+            username = data['username']
+            password = data['password']
+            fullname = data['fullname']
+            email = data['email']
+            address = data['address']
+            jenis_role = data['jenis_role']
+            registered_by = data['registered_by']
+            id_petugas = data['id_petugas']
+
+            app.logger.info("input :" + str(data))
+            db = connection.get_db()
+            curr = db.cursor()
+            q_is_exist = ("SELECT count(id) as jumlah FROM `tb_ms_login` where username = '"+username+"' or email = '"+email+"';")
+            curr.execute(q_is_exist)
+            rs = curr.fetchall()
+            jumlah_row = rs[0][0]
+            if jumlah_row > 0 :
+                res_data['response'] = 'NOK'
+                res_data['msg'] = 'User Already Registered'
+                return json.dumps(res_data)
+
+            q_insert = ("INSERT INTO `tb_ms_login` (username, password, fullname, email, address, jenis_role, registered_by, id_petugas) values ('"+username+"','"+password+"','"+fullname+"','"+email+"','"+address+"','"+jenis_role+"','"+registered_by+"','"+id_petugas+"');")
+            curr.execute(q_insert)
+            db.commit()
+            res_data['response'] = 'OK'
+            res_data['msg'] = 'User Registered'
+        return json.dumps(res_data)
+
+    except Exception as e:
+        res_data = {}
+        app.logger.error('An error occured.')
+        app.logger.error(e)
+        res_data['ACK'] = 'NOK'
+        res_data['msg'] = str(e)
+        return json.dumps(res_data)
+
 if __name__ == '__main__':
     handler = RotatingFileHandler('/var/log/api-koperasi/API_KOPERASI.log', maxBytes=10000, backupCount=1)
     handler.setLevel(logging.INFO)
