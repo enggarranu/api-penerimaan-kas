@@ -787,8 +787,8 @@ def get_operator_denom_by_prefix():
             rs_data["response"] = 'NOK'
         return json.dumps(rs_data)
 
-@app.route('/register_petugas', methods=["POST","GET"])
-def register():
+@app.route('/input_penjualan_pulsa', methods=["POST","GET"])
+def input_penjualan_pulsa():
     try:
         res_data = {}
         if request.method == 'GET':
@@ -797,32 +797,24 @@ def register():
             if not request.json:
                 abort(400)
             data = request.json
-            username = data['username']
-            password = data['password']
-            fullname = data['fullname']
-            email = data['email']
-            address = data['address']
-            jenis_role = data['jenis_role']
-            registered_by = data['registered_by']
-            id_petugas = data['id_petugas']
+            tanggal_registrasi = data['tanggal_registrasi']
+            id_transaksi = data['id_transaksi']
+            operator = data['operator']
+            no_hp = data['no_hp']
+            denom = data['denom']
+            catatan = data['catatan']
+            tipe_transaksi = 'pembelian_pulsa'
 
             app.logger.info("input :" + str(data))
             db = connection.get_db()
             curr = db.cursor()
-            q_is_exist = ("SELECT count(id) as jumlah FROM `tb_ms_login` where username = '"+username+"' or email = '"+email+"';")
-            curr.execute(q_is_exist)
-            rs = curr.fetchall()
-            jumlah_row = rs[0][0]
-            if jumlah_row > 0 :
-                res_data['response'] = 'NOK'
-                res_data['msg'] = 'User Already Registered'
-                return json.dumps(res_data)
-
-            q_insert = ("INSERT INTO `tb_ms_login` (username, password, fullname, email, address, jenis_role, registered_by, id_petugas) values ('"+username+"','"+password+"','"+fullname+"','"+email+"','"+address+"','"+jenis_role+"','"+registered_by+"','"+id_petugas+"');")
+            q_insert = ("insert into tr_transaksi (id_transaksi, tipe_transaksi, no_hp, timestamp) values ('"+id_transaksi+"', '"+tipe_transaksi+"', '"+no_hp+"', '"+tanggal_registrasi+"');")
             curr.execute(q_insert)
+            q_update = ("UPDATE tr_transaksi SET id_product = tb.id_product, harga_beli = tb.harga_beli, harga_jual = tb.harga_jual, keuntungan = tb.keuntungan FROM ( SELECT id_product, harga_beli, harga_jual, keuntungan FROM ms_produk WHERE nama_produk = '"+denom+"') tb WHERE tr_transaksi.id_transaksi = '"+id_transaksi+"';")
+            curr.execute(q_update)
             db.commit()
             res_data['response'] = 'OK'
-            res_data['msg'] = 'User Registered'
+            res_data['msg'] = 'Transaksi Sukses'
         return json.dumps(res_data)
 
     except Exception as e:
