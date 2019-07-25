@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09e54981-a4e3-4b7f-ba46-2c08189af741" name="Default" comment="add input penjualan">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -223,7 +222,7 @@
       <workItem from="1564027941498" duration="80000" />
       <workItem from="1564028090885" duration="770000" />
       <workItem from="1564035081767" duration="611000" />
-      <workItem from="1564043509125" duration="463000" />
+      <workItem from="1564043509125" duration="691000" />
     </task>
     <task id="LOCAL-00024" summary="Register petugas">
       <created>1533712410855</created>
