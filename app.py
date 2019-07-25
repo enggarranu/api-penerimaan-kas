@@ -804,10 +804,6 @@ def input_penjualan_pulsa():
             denom = data['denom']
             catatan = data['catatan']
             tipe_transaksi = 'pembelian_pulsa'
-            id_product = ''
-            harga_beli = ''
-            harga_jual = ''
-            keuntungan = ''
 
             app.logger.info("input :" + str(data))
             db = connection.get_db()
