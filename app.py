@@ -813,7 +813,7 @@ def input_penjualan_pulsa():
             db = connection.get_db()
             curr = db.cursor()
             q = ("SELECT id_produk, harga_beli, harga_jual, keuntungan FROM ms_produk WHERE nama_produk = '"+denom+"';")
-            print (q)
+            print(q)
             curr.execute(q)
             rs = curr.fetchall()
             rs_data = {}
@@ -823,7 +823,7 @@ def input_penjualan_pulsa():
                 harga_jual = rs[0][2]
                 keuntungan = rs[0][3]
             q_insert = ("insert into tr_transaksi (id_transaksi, tipe_transaksi, id_product, no_hp, harga_beli, harga_jual, keuntungan, timestamp) values ('"+id_transaksi+"', '"+tipe_transaksi+"',"+id_product+" ,'"+no_hp+"', '"+harga_beli+"', '"+harga_jual+"', '"+keuntungan+"', '"+tanggal_registrasi+"');")
-            app.logger.info(q_insert)
+            print(q_insert)
             curr.execute(q_insert)
             db.commit()
             res_data['response'] = 'OK'
