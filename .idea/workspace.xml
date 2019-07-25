@@ -18,55 +18,6 @@
     <SUITE FILE_PATH="coverage/api_koperasi$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1532074185298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/api_koperasi$date_test.coverage" NAME="date_test Coverage Results" MODIFIED="1533107400571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/connection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="75" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="768" column="16" selection-start-line="768" selection-start-column="16" selection-end-line="768" selection-end-column="16" />
-              <folding>
-                <element signature="e#416#894#0" />
-                <element signature="e#478#894#0" />
-                <element signature="e#973#2721#0" />
-                <element signature="e#986#2496#0" />
-                <element signature="e#1093#2460#0" />
-                <element signature="e#1906#2038#0" />
-                <element signature="e#2533#2721#0" />
-                <element signature="e#2804#3345#0" />
-                <element signature="e#2866#3345#0" />
-                <element signature="e#3431#4456#0" />
-                <element signature="e#3538#4420#0" />
-                <element signature="e#4542#5286#0" />
-                <element signature="e#4678#5250#0" />
-                <element signature="e#5753#5987#0" />
-                <element signature="e#6411#6570#0" />
-                <element signature="e#6741#7005#0" />
-                <element signature="e#7041#7229#0" />
-                <element signature="e#7319#8848#0" />
-                <element signature="e#7426#8812#0" />
-                <element signature="e#8199#8335#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app-old.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -102,44 +53,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/text.py" />
-        <option value="$PROJECT_DIR$/anggota.py" />
-        <option value="$PROJECT_DIR$/date_test.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/connection.py" />
-        <option value="$PROJECT_DIR$/app.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="width" value="979" />
-    <option name="height" value="1056" />
-  </component>
+  <component name="ProjectId" id="1OUbM1yBC5zpVq14MIOfUO2R3Ze" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="api-penerimaan-kas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api-penerimaan-kas" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -238,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Flask (app.py)" type="Python.FlaskServer" factoryName="Flask server" temporary="true" nameIsGenerated="true">
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <module name="api_koperasi" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
       <option name="targetType" value="PATH" />
@@ -253,7 +170,7 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="api_koperasi" type="Python.FlaskServer" factoryName="Flask server">
+    <configuration name="api_koperasi" type="Python.FlaskServer">
       <module name="api_koperasi" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
       <option name="targetType" value="PATH" />
@@ -271,9 +188,9 @@
     <list>
       <item itemvalue="Flask server.api_koperasi" />
       <item itemvalue="Flask server.Flask (app.py)" />
+      <item itemvalue="Python.date_test" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.text" />
-      <item itemvalue="Python.date_test" />
     </list>
     <recent_temporary>
       <list>
@@ -298,77 +215,15 @@
       <workItem from="1556771915187" duration="1460000" />
       <workItem from="1556797981560" duration="2379000" />
       <workItem from="1556947900992" duration="3190000" />
-      <workItem from="1557065705121" duration="1053000" />
-    </task>
-    <task id="LOCAL-00014" summary="Improve Register Petugas">
-      <created>1533303278687</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1533303278687</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Login Management">
-      <created>1533452639809</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1533452639809</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Login Management | inquiry petugas">
-      <created>1533452965036</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1533452965036</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Login Management | inquiry petugas">
-      <created>1533538471337</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1533538471337</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Login Management | inquiry petugas">
-      <created>1533542016862</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1533542016862</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Login Management | inquiry petugas">
-      <created>1533542276448</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1533542276448</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Login Management | inquiry petugas">
-      <created>1533543251060</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1533543251060</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Login Management | inquiry petugas">
-      <created>1533543859443</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1533543859443</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Add Validation Form peminjaman">
-      <created>1533628905488</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1533628905488</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Register petugas">
-      <created>1533712260117</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1533712260117</updated>
+      <workItem from="1557065705121" duration="1483000" />
+      <workItem from="1557553398549" duration="5827000" />
+      <workItem from="1557670457857" duration="611000" />
+      <workItem from="1563978337968" duration="1655000" />
+      <workItem from="1563980686579" duration="701000" />
+      <workItem from="1564027941498" duration="80000" />
+      <workItem from="1564028090885" duration="770000" />
+      <workItem from="1564035081767" duration="611000" />
+      <workItem from="1564043509125" duration="463000" />
     </task>
     <task id="LOCAL-00024" summary="Register petugas">
       <created>1533712410855</created>
@@ -643,67 +498,94 @@
       <option name="project" value="LOCAL" />
       <updated>1556989330335</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="add input penjualan">
+      <created>1557067995593</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1557067995594</updated>
+    </task>
+    <task id="LOCAL-00064" summary="add input penjualan">
+      <created>1557068158280</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1557068158280</updated>
+    </task>
+    <task id="LOCAL-00065" summary="add input penjualan">
+      <created>1557068244527</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1557068244527</updated>
+    </task>
+    <task id="LOCAL-00066" summary="change query on get_operator_denom_by_prefix">
+      <created>1557555230291</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1557555230292</updated>
+    </task>
+    <task id="LOCAL-00067" summary="add input penjualan">
+      <created>1557555326947</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1557555326947</updated>
+    </task>
+    <task id="LOCAL-00068" summary="add input penjualan">
+      <created>1557555420665</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1557555420666</updated>
+    </task>
+    <task id="LOCAL-00069" summary="add input penjualan">
+      <created>1557555626931</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1557555626931</updated>
+    </task>
+    <task id="LOCAL-00070" summary="add input penjualan">
+      <created>1557556645716</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1557556645716</updated>
+    </task>
+    <task id="LOCAL-00071" summary="add input penjualan">
+      <created>1557585543728</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1557585543728</updated>
+    </task>
+    <task id="LOCAL-00072" summary="add input penjualan">
+      <created>1563978944419</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1563978944421</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11897000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-11" y="0" width="1920" height="1013" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18516542" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3297414" />
-      <window_info anchor="bottom" x="859" y="62" width="1146" height="796" id="Run" order="2" sideWeight="0.49946696" weight="0.48666668" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49271846" weight="0.396" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50728154" side_tool="true" weight="0.400978" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="R Graphics" order="4" />
-      <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41854304" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3297414" />
-      <window_info anchor="bottom" x="859" y="62" width="1146" height="796" id="Run" order="2" sideWeight="0.49946696" weight="0.48789346" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49271846" weight="0.400978" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50728154" side_tool="true" weight="0.400978" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="R Graphics" order="4" />
-      <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add pinjaman" />
@@ -724,59 +606,9 @@
     <MESSAGE value="Fix Bug Get id trx pinjaman and bug pengambilan" />
     <MESSAGE value="Bug Fix Inq Pengambilan" />
     <MESSAGE value="try to change bind address on connection" />
+    <MESSAGE value="change query on get_operator_denom_by_prefix" />
     <MESSAGE value="add input penjualan" />
     <option name="LAST_COMMIT_MESSAGE" value="add input penjualan" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://C:/Python27/Lib/site-packages/MySQLdb/__init__.py" />
-    <entry file="file://C:/Python27/Lib/site-packages/MySQLdb/cursors.py" />
-    <entry file="file://$PROJECT_DIR$/text.py" />
-    <entry file="file://$PROJECT_DIR$/anggota.py" />
-    <entry file="file://$PROJECT_DIR$/API_KOPERASI.log" />
-    <entry file="file://$PROJECT_DIR$/../.PyCharm2018.1/system/python_stubs/-762174762/__builtin__.py" />
-    <entry file="file://$PROJECT_DIR$/date_test.py" />
-    <entry file="file://C:/Python27/Lib/site-packages/flask/app.py" />
-    <entry file="file://C:/Python27/Lib/site-packages/MySQLdb/connections.py" />
-    <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="75" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-old.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="768" column="16" selection-start-line="768" selection-start-column="16" selection-end-line="768" selection-end-column="16" />
-          <folding>
-            <element signature="e#416#894#0" />
-            <element signature="e#478#894#0" />
-            <element signature="e#973#2721#0" />
-            <element signature="e#986#2496#0" />
-            <element signature="e#1093#2460#0" />
-            <element signature="e#1906#2038#0" />
-            <element signature="e#2533#2721#0" />
-            <element signature="e#2804#3345#0" />
-            <element signature="e#2866#3345#0" />
-            <element signature="e#3431#4456#0" />
-            <element signature="e#3538#4420#0" />
-            <element signature="e#4542#5286#0" />
-            <element signature="e#4678#5250#0" />
-            <element signature="e#5753#5987#0" />
-            <element signature="e#6411#6570#0" />
-            <element signature="e#6741#7005#0" />
-            <element signature="e#7041#7229#0" />
-            <element signature="e#7319#8848#0" />
-            <element signature="e#7426#8812#0" />
-            <element signature="e#8199#8335#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

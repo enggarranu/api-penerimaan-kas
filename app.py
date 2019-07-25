@@ -811,6 +811,7 @@ def input_penjualan_pulsa():
             q_insert = ("insert into tr_transaksi (id_transaksi, tipe_transaksi, no_hp, timestamp) values ('"+id_transaksi+"', '"+tipe_transaksi+"', '"+no_hp+"', '"+tanggal_registrasi+"');")
             curr.execute(q_insert)
             q_update = ("UPDATE tr_transaksi SET id_product = tb.id_product, harga_beli = tb.harga_beli, harga_jual = tb.harga_jual, keuntungan = tb.keuntungan FROM ( SELECT id_product, harga_beli, harga_jual, keuntungan FROM ms_produk WHERE nama_produk = '"+denom+"') tb WHERE tr_transaksi.id_transaksi = '"+id_transaksi+"';")
+            print q_update
             curr.execute(q_update)
             db.commit()
             res_data['response'] = 'OK'
