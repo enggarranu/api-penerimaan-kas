@@ -812,7 +812,7 @@ def input_penjualan_pulsa():
             app.logger.info("input :" + str(data))
             db = connection.get_db()
             curr = db.cursor()
-            q = ("SELECT id_product, harga_beli, harga_jual, keuntungan FROM ms_produk WHERE nama_produk = '"+denom+"';")
+            q = ("SELECT id_produk, harga_beli, harga_jual, keuntungan FROM ms_produk WHERE nama_produk = '"+denom+"';")
             print (q)
             curr.execute(q)
             rs = curr.fetchall()
