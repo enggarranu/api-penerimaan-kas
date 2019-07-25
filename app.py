@@ -823,8 +823,8 @@ def input_penjualan_pulsa():
                 harga_jual = rs[0][2]
                 keuntungan = rs[0][3]
             q_insert = ("insert into tr_transaksi (id_transaksi, tipe_transaksi, id_product, no_hp, harga_beli, harga_jual, keuntungan, timestamp) values ('"+id_transaksi+"', '"+tipe_transaksi+"',"+id_product+" ,'"+no_hp+"', '"+harga_beli+"', '"+harga_jual+"', '"+keuntungan+"', '"+tanggal_registrasi+"');")
-            curr.execute(q_insert)
             app.logger.info(q_insert)
+            curr.execute(q_insert)
             db.commit()
             res_data['response'] = 'OK'
             res_data['msg'] = 'Transaksi Sukses'
