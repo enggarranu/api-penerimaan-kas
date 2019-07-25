@@ -814,10 +814,10 @@ def input_penjualan_pulsa():
             rs = curr.fetchall()
             rs_data = {}
             if len(rs) > 0:
-                id_product = rs[0][0]
-                harga_beli = rs[0][1]
-                harga_jual = rs[0][2]
-                keuntungan = rs[0][3]
+                id_product = str(rs[0][0])
+                harga_beli = str(rs[0][1])
+                harga_jual = str(rs[0][2])
+                keuntungan = str(rs[0][3])
             q_insert = ("insert into tr_transaksi (id_transaksi, tipe_transaksi, id_product, no_hp, harga_beli, harga_jual, keuntungan, timestamp) values ('"+id_transaksi+"', '"+tipe_transaksi+"',"+id_product+" ,'"+no_hp+"', '"+harga_beli+"', '"+harga_jual+"', '"+keuntungan+"', '"+tanggal_registrasi+"');")
             print(q_insert)
             curr.execute(q_insert)
