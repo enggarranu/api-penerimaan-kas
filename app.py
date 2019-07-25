@@ -789,7 +789,7 @@ def get_operator_denom_by_prefix():
 
 @app.route('/input_penjualan_pulsa', methods=["POST","GET"])
 def input_penjualan_pulsa():
-    try:
+    # try:
         res_data = {}
         if request.method == 'GET':
             return api_version
@@ -813,6 +813,7 @@ def input_penjualan_pulsa():
             curr.execute(q)
             rs = curr.fetchall()
             rs_data = {}
+            id_product = harga_beli = harga_jual = keuntungan = ''
             if len(rs) > 0:
                 id_product = str(rs[0][0])
                 harga_beli = str(rs[0][1])
@@ -830,13 +831,13 @@ def input_penjualan_pulsa():
             res_data['msg'] = 'Transaksi Sukses'
         return json.dumps(res_data)
 
-    except Exception as e:
-        res_data = {}
-        app.logger.error('An error occured.')
-        app.logger.error(e)
-        res_data['ACK'] = 'NOK'
-        res_data['msg'] = str(e)
-        return json.dumps(res_data)
+    # except Exception as e:
+    #     res_data = {}
+    #     app.logger.error('An error occured.')
+    #     app.logger.error(e)
+    #     res_data['ACK'] = 'NOK'
+    #     res_data['msg'] = str(e)
+    #     return json.dumps(res_data)
 
 if __name__ == '__main__':
     handler = RotatingFileHandler('/var/log/api-koperasi/API_KOPERASI.log', maxBytes=10000, backupCount=1)
