@@ -804,15 +804,27 @@ def input_penjualan_pulsa():
             denom = data['denom']
             catatan = data['catatan']
             tipe_transaksi = 'pembelian_pulsa'
+            id_product = ''
+            harga_beli = ''
+            harga_jual = ''
+            keuntungan = ''
 
             app.logger.info("input :" + str(data))
             db = connection.get_db()
             curr = db.cursor()
-            q_insert = ("insert into tr_transaksi (id_transaksi, tipe_transaksi, no_hp, timestamp) values ('"+id_transaksi+"', '"+tipe_transaksi+"', '"+no_hp+"', '"+tanggal_registrasi+"');")
+            q = ("SELECT id_product, harga_beli, harga_jual, keuntungan FROM ms_produk WHERE nama_produk = '"+denom+"';")
+            print (q)
+            curr.execute(q)
+            rs = curr.fetchall()
+            rs_data = {}
+            if len(rs) > 0:
+                id_product = rs[0][0]
+                harga_beli = rs[0][1]
+                harga_jual = rs[0][2]
+                keuntungan = rs[0][3]
+            q_insert = ("insert into tr_transaksi (id_transaksi, tipe_transaksi, id_product, no_hp, harga_beli, harga_jual, keuntungan, timestamp) values ('"+id_transaksi+"', '"+tipe_transaksi+"',"+id_product+" ,'"+no_hp+"', '"+harga_beli+"', '"+harga_jual+"', '"+keuntungan+"', '"+tanggal_registrasi+"');")
             curr.execute(q_insert)
-            q_update = ("UPDATE tr_transaksi SET id_product = tb.id_product, harga_beli = tb.harga_beli, harga_jual = tb.harga_jual, keuntungan = tb.keuntungan FROM ( SELECT id_product, harga_beli, harga_jual, keuntungan FROM ms_produk WHERE nama_produk = '"+denom+"') tb WHERE tr_transaksi.id_transaksi = '"+id_transaksi+"';")
-            app.logger.error(q_update)
-            curr.execute(q_update)
+            app.logger.info(q_insert)
             db.commit()
             res_data['response'] = 'OK'
             res_data['msg'] = 'Transaksi Sukses'
