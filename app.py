@@ -789,7 +789,7 @@ def get_operator_denom_by_prefix():
 
 @app.route('/input_penjualan_pulsa', methods=["POST","GET"])
 def input_penjualan_pulsa():
-    # try:
+    try:
         res_data = {}
         if request.method == 'GET':
             return api_version
@@ -816,10 +816,10 @@ def input_penjualan_pulsa():
             if len(rs) > 0:
                 id_product = str(rs[0][0])
                 harga_beli = str(rs[0][1])
-                if harga_beli == None:
+                if harga_beli == None || harga_jual == 'None':
                     harga_beli = '0'
                 harga_jual = str(rs[0][2])
-                if harga_jual == None:
+                if harga_jual == None || harga_jual == 'None':
                     harga_jual = '0'
                 keuntungan = str(rs[0][3])
             q_insert = ("insert into tr_transaksi (id_transaksi, tipe_transaksi, id_product, no_hp, harga_beli, harga_jual, keuntungan, timestamp) values ('"+id_transaksi+"', '"+tipe_transaksi+"',"+id_product+" ,'"+no_hp+"', '"+harga_beli+"', '"+harga_jual+"', '"+keuntungan+"', '"+tanggal_registrasi+"');")
@@ -830,13 +830,13 @@ def input_penjualan_pulsa():
             res_data['msg'] = 'Transaksi Sukses'
         return json.dumps(res_data)
 
-    # except Exception as e:
-    #     res_data = {}
-    #     app.logger.error('An error occured.')
-    #     app.logger.error(e)
-    #     res_data['ACK'] = 'NOK'
-    #     res_data['msg'] = str(e)
-    #     return json.dumps(res_data)
+    except Exception as e:
+        res_data = {}
+        app.logger.error('An error occured.')
+        app.logger.error(e)
+        res_data['ACK'] = 'NOK'
+        res_data['msg'] = str(e)
+        return json.dumps(res_data)
 
 if __name__ == '__main__':
     handler = RotatingFileHandler('/var/log/api-koperasi/API_KOPERASI.log', maxBytes=10000, backupCount=1)
