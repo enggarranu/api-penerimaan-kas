@@ -816,7 +816,11 @@ def input_penjualan_pulsa():
             if len(rs) > 0:
                 id_product = str(rs[0][0])
                 harga_beli = str(rs[0][1])
+                if harga_beli == None:
+                    harga_beli = '0'
                 harga_jual = str(rs[0][2])
+                if harga_jual == None:
+                    harga_jual = '0'
                 keuntungan = str(rs[0][3])
             q_insert = ("insert into tr_transaksi (id_transaksi, tipe_transaksi, id_product, no_hp, harga_beli, harga_jual, keuntungan, timestamp) values ('"+id_transaksi+"', '"+tipe_transaksi+"',"+id_product+" ,'"+no_hp+"', '"+harga_beli+"', '"+harga_jual+"', '"+keuntungan+"', '"+tanggal_registrasi+"');")
             print(q_insert)
